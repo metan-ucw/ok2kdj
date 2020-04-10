@@ -1,0 +1,10 @@
+{% extends "index.html" %}
+
+{% block nav %}
+<a href="{{ SITEURL }}">{{ SITENAME }}</a> ››<a href="{{ category.url }}">{{ category }}</a>
+{% endblock %}
+
+{% block content_title %}
+<h4 class="content-archive">Články v rubrice <b>{{ category }}</b></h4>
+{% endblock %}
+
