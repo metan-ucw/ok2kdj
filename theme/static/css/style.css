@@ -1268,6 +1268,9 @@ form div {
 
 #header {
 	margin: 0;
+	background-image: url("../image/radhost.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #footer {
@@ -1293,7 +1296,10 @@ form div {
 
 #logo {
 	float: left;
-	margin: 0;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 0;
+	margin-bottom: 0;
 	font-family: "Roboto";
 	color: #555555;
 }

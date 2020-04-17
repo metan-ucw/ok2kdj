@@ -40,9 +40,8 @@
 <div id="container" class="hfeed">
     <header id="header" >
         <div id="logo">
-                <h1> <!--<img src="{{ SITE_URL }}/theme/image/default-logo.png" width="300" height="100" alt="Logo" /> -->
-                <a href="{{ SITEURL }}">{{ SITENAME }}</a></h1>
-        </div> <!-- /#logo-->
+		<h1><a href="{{ SITEURL }}">{{ SITENAME }}</a></h1>
+        </div>
         <nav id="menu" class="main-nav"><ul class="menu">
         {% for title, link in MENUITEMS %}
             <li {% if p == page %} class="active"{% endif %}><a href="{{ link }}">{{ title }}</a></li>
